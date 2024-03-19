@@ -1,11 +1,11 @@
 {
-  "name": "lsf/tp6-captcha",
-  "description": "lsf-captcha",
+  "name": "tolollipop/tp6-captcha",
+  "description": "tolollipop-captcha",
   "license": "Apache-2.0",
   "authors": [
     {
-      "name": "lsf",
-      "email": "lsf@gzlsf.cn"
+      "name": "tolollipop",
+      "email": "tolollipop@gzlsf.cn"
     }
   ],
   "require": {
@@ -13,12 +13,12 @@
     "ext-mbstring": "*",
     "ext-gd": "*",
     "topthink/framework": "^6.0.0",
-    "lsf/lsf-cache": "^1.0"
+    "tolollipop/tolollipop-cache": "^1.0"
   },
-  "homepage": "https://github.com/tolollipop/lsf-captcha",
+  "homepage": "https://github.com/tolollipop/tp6-captcha",
   "autoload": {
     "psr-4": {
-      "lsf\\captcha\\": "src/"
+      "tolollipop\\captcha\\": "src/"
     }
   },
   "extra": {
