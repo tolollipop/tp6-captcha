@@ -1,0 +1,31 @@
+{
+  "name": "lsf/tp6-captcha",
+  "description": "lsf-captcha",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "lsf",
+      "email": "lsf@gzlsf.cn"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0",
+    "ext-mbstring": "*",
+    "ext-gd": "*",
+    "topthink/framework": "^6.0.0",
+    "lsf/lsf-cache": "^1.0"
+  },
+  "homepage": "https://github.com/tolollipop/lsf-captcha",
+  "autoload": {
+    "psr-4": {
+      "lsf\\captcha\\": "src/"
+    }
+  },
+  "extra": {
+    "think": {
+      "config": {
+        "captcha": "src/config.php"
+      }
+    }
+  }
+}
