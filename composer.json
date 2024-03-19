@@ -10,8 +10,6 @@
   ],
   "require": {
     "php": ">=7.1.0",
-    "topthink/framework": "^8.0.0",
-    "tolollipop/tolollipop-cache": "^1.0"
   },
   "homepage": "https://github.com/tolollipop/tp6-captcha",
   "autoload": {
